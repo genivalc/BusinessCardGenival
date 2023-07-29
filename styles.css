@@ -1,134 +1,136 @@
 /* Set background and font */
 body {
-    background: url(ca9bd9b1a3af650d24995a1e7959426a.png), lightgray 50% / cover no-repeat;
-    background-size: cover; 
-    margin: 0;
-    padding: 0;
-    background-color: rgb(10, 10, 10);
-    color: rgb(240, 240, 240);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100vw;
-    font-family: Verdana, Tahoma, sans-serif;
-  }
-  
-  /* Set header styles */
-  header {
-    width: 95%;
-    max-width: 788px;
-    display: flex;
-    justify-content: flex-end;
-    padding: 12px;
-    margin-top: 15px;
-  }
-  
-  /* Set share button styles */
-  .share-button {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: rgb(240, 240, 240);
-  }
-  
-  .share-button svg {
-    margin-left: 12px;
-    margin-top: 10px;
-    color: rgb(0, 0, 0);
-  }
-  
-  /* Set container styles */
-  .container {
-    width: 91%;
-    height: 100%;
-    max-width: 680px;
-    margin: 10px;
-    display: flex;
-    margin-top: 80px;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  /* Set heading styles */
-  h1 {
-    font-size: 20px;
-    margin-bottom: 30px;
-  }
-  
-  /* Set link styles */
-  a {
-    text-decoration: none;
-    color: rgb(240, 240, 240);
-  }
-  
-  /* Set tile styles */
-  .tile {
-    background-color: rgb(37, 37, 37);
-    margin-top: 16px;
-    border-radius: 17px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 24px;
-    margin-right: 24px;
-    transition: cubic-bezier(0.07, 1.41, 0.82, 1.41) 0.2s;
-  }
-  
-  .tile:first-child{
-    margin-top: 24px;
-  }
-  
-  .tile:hover {
-    transform: scale(1.02);
-  }
-  
-  /* Set tile share button styles */
-  .tile-share-button {
-    margin: 8px;
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: rgb(52, 52, 52);
+  background: url(ca9bd9b1a3af650d24995a1e7959426a.png),
+    lightgray 50% / cover no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(10, 10, 10);
+  color: rgb(240, 240, 240);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  font-family: Verdana, Tahoma, sans-serif;
+}
 
-  }
-  
-  .tile-share-button img {
-    width: 20px;
-    height: 20px;
-    margin: 11px;
-  }
-  
-  /* Set image container styles */
-  .image-container {
-    height: 96px;
-    width: 96px;
-    border-radius: 48px;
-    overflow: hidden;
-  }
-  
-  .image-container img {
-    height: 100%;
-  }
-  
-  /* Set icon styles */
-  .icon {
-    margin: 4px 8px;
-    width: 44px;
-    height: 44px;
-  }
-  
-  /* Set container tile styles */
-  #containerTile {
-    width: 100%;
-  }
-  
-  /* Set footer styles */
-  footer {
-    display: flex;
-    margin: 50px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    align-self: stretch;
-  }
+/* Set header styles */
+header {
+  width: 95%;
+  max-width: 788px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px;
+  margin-top: 15px;
+}
 
+/* Set share button styles */
+.share-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(240, 240, 240);
+}
 
+.share-button svg {
+  margin-left: 12px;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+}
+
+/* Set container styles */
+.container {
+  width: 91%;
+  height: 100%;
+  max-width: 680px;
+  margin: 10px;
+  display: flex;
+  margin-top: 80px;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Set heading styles */
+h1 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+/* Set link styles */
+a {
+  text-decoration: none;
+  color: rgb(240, 240, 240);
+  
+}
+
+/* Set tile styles */
+.tile {
+  background-color: rgb(37, 37, 37);
+  margin-top: 16px;
+  border-radius: 17px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 24px;
+  margin-right: 24px;
+  transition: cubic-bezier(0.07, 1.41, 0.82, 1.41) 0.2s;
+}
+
+.tile:first-child {
+  margin-top: 24px;
+}
+
+.tile:hover {
+  transform: scale(1.02);
+}
+
+/* Set tile share button styles */
+.tile-share-button {
+  margin: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(52, 52, 52);
+}
+
+.tile-share-button img {
+  width: 20px;
+  height: 20px;
+  margin: 11px;
+}
+
+/* Set image container styles */
+.image-container {
+  width: 112px;
+  height: 111px;
+  border-radius: 50%;
+  border: 2px solid var(rgba(124, 58, 58, 0.5), rgba(255, 255, 255, 0.5));
+}
+
+.image-container img {
+  height: 100%;
+}
+
+/* Set icon styles */
+.icon {
+  margin: 4px 8px;
+  width: 44px;
+  height: 44px;
+}
+
+/* Set container tile styles */
+#containerTile {
+  width: 100%;
+ 
+  height: 100vh;
+}
+
+/* Set footer styles */
+footer {
+  display: flex;
+  margin: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
